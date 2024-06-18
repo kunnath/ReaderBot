@@ -18,7 +18,7 @@ BOOK_DIR = './literature_data'
 HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-l6-v2"
 EMBEDDINGS_CACHE = './CACHE'
-INDEX_DIR = "CACHE/faiss_index"
+INDEX_DIR = "./content/books/faiss_index"
 HF_TOKEN = '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'
 
 # Suppress future warnings from the HuggingFace Hub
