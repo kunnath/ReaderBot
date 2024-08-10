@@ -4,7 +4,7 @@ FROM python:3.9-slim
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
-ENV HUGGINGFACEHUB_API_TOKEN='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'
+ENV HUGGINGFACEHUB_API_TOKEN='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'
 
 # Set the working directory in the container
 WORKDIR /app

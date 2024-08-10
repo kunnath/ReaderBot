@@ -20,7 +20,7 @@ HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-l6-v2"
 EMBEDDINGS_CACHE = './CACHE'
 INDEX_DIR = "./content/books/faiss_index"
-HF_TOKEN = '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'
+HF_TOKEN = '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'
 
 # Suppress future warnings from the HuggingFace Hub
 warnings.filterwarnings("ignore", category=FutureWarning, module='huggingface_hub.file_download')
@@ -188,7 +188,6 @@ if prompt := st.chat_input("Enter your question:"):
         # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": response})
              # Add assistant response to chat history
-        subprocess.run(["say", response])
 
         # Add a button to read the response
         if st.button("Read Answer"):
